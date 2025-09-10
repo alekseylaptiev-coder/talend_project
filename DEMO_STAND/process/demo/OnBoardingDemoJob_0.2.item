@@ -107,6 +107,8 @@
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6 )" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1" id="2"/>
       <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(3 )" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn2" id="4"/>
+      <elementValue elementRef="ARRAY" value="TalendString.getAsciiRandomString(6 )" id="5"/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -116,6 +118,9 @@
       </column>
       <column comment="" defaultValue="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;3 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
       </column>
     </metadata>
   </node>
@@ -137,6 +142,8 @@
       <elementValue elementRef="LENGTH" value="10" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1" id="2"/>
       <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn2" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -147,6 +154,9 @@
       </column>
       <column comment="" defaultValue="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;3 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
       </column>
     </metadata>
   </node>
